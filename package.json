@@ -1,0 +1,33 @@
+{
+  "name": "user_authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-jwt": "^5.3.3",
+    "express-validator": "^6.15.0",
+    "formidable": "^1.2.6",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.22",
+    "nodemon": "^1.19.4",
+    "npm": "^6.13.0",
+    "uuid": "^3.4.0"
+  },
+  "engines": {
+    "node": "v12.18.4"
+  }
+}
